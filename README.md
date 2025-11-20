@@ -3,9 +3,10 @@ Self taught, terrible at coding but I have been dabbling with computers and code
 So yes, this is a mixture of me and AI helping me
 
 What's in this version 1.0
-Select a folder or a drive (large drives may take longer to scan or compute the files to count, but it should be working).
-Wait for the scan
-See the results - Right click to open the file path or delete the unwanted files.
+• Select a folder or a drive (large drives may take longer to scan or compute the files to count, but it should be working).
+• Scan/progress bar and results - Right click to open the file path or delete the unwanted files.
+
+It shows' Exact file matches (same file name and size, date created) and Close matches (same file name, different size, or date created).
 
 I've not tried to limit the options a bit, such as 'delete all' as deleting the wrong files could be dangerous, so for now this is simple.
 
