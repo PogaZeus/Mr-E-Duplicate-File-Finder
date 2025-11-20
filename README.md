@@ -1,4 +1,4 @@
-Self taught, terrible at coding but I have been dabbling with computers and code for a long time however I don't have muc to show for it, so I've started developing some apps with the help of AI. 
+Self taught, terrible at coding but I have been dabbling with computers and code for a long time however I don't have much to show for it, so I've started developing some apps with the help of AI. 
 
 So yes, this is a mixture of me and AI helping me
 
