@@ -1,5 +1,4 @@
 ![Duplicate File Finder](https://www.z3u5.org/screenshots/DuplicateFileFinder.png)
-Self-taught, terrible at coding—but I’ve been dabbling with computers and code for a long time and don’t have much to show for it. So I’ve started building apps with a little help from AI. 🤖
 
 ---
 
