@@ -1,4 +1,4 @@
-![Duplicate File Finder](https://repository-images.githubusercontent.com/1100856126/3749c92f-0a9d-4acb-8b7e-2c1b28d2fb33)
+![Duplicate File Finder](https://www.z3u5.org/screenshots/DuplicateFileFinder.png)
 Self-taught, terrible at coding—but I’ve been dabbling with computers and code for a long time and don’t have much to show for it. So I’ve started building apps with a little help from AI. 🤖
 
 ---
@@ -74,6 +74,15 @@ Perfect for cleaning up cluttered photo libraries, document folders, or backup d
     - https://chat.qwen.ai/  
     - https://chatgpt.com/  
 - **Lots of coffee** ☕
+
+---
+
+## 💖 Support This Project
+
+If you find it useful, consider:  
+- ⭐ Starring the repo on [GitHub](https://github.com/PogaZeus)  
+- ☕ Buying me a coffee via [PayPal](https://paypal.me/zxgaming)
+- ⭐ Visiting my website [Z3U5](https://www.Z3U5.org)
 
 ---
 
