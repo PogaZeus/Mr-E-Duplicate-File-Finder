@@ -5,37 +5,58 @@
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
     </Window.Resources>
-    <Grid Margin="10">
+    <!-- Root Grid with proper RowDefinitions -->
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-
-        <!-- Top container -->
-        <Grid Grid.Row="0" Margin="0,0,0,10">
-            <Image Source="/Properties/MrETools.png"
-                   HorizontalAlignment="Left"
-                   VerticalAlignment="Top"
-                   Stretch="Uniform"
-                   MaxHeight="100" />
-            <TextBlock HorizontalAlignment="Right"
-                       VerticalAlignment="Top"
-                       TextAlignment="Right"
-                       FontSize="12"
-                       Foreground="Gray"><Run Text="Duplicate File Finder"/><LineBreak/><LineBreak/><Run Text="Created By"/><LineBreak/><Run Text="Youtube.com/@MrE-"/><LineBreak/><LineBreak/><Run Text="Version 1.0"/><Run Language="en-gb" Text=".0"/></TextBlock>
-        </Grid>
-
-        <!-- Folder Selection -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
-            <Button Content="Select Folder" Width="120" Click="SelectFolder_Click"/>
-            <TextBox x:Name="txtFolderPath" Width="738" Margin="10,0,0,0" IsReadOnly="True"/>
+        
+        <Grid Grid.Row="0" Margin="15,5,5,5">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Image Source="/MrE_Transparent_Small.png"
+               Stretch="Uniform"
+               MaxHeight="100"
+               Margin="15,0,0,0"/>
+            <Image Source="/Duplicate_File_Finder.png"
+               Stretch="Uniform"
+               MaxHeight="100"
+               Margin="35,0,0,0" />
+            <!-- Optional: adds spacing between images -->
         </StackPanel>
 
+        <TextBlock HorizontalAlignment="Right"
+               VerticalAlignment="Top"
+               TextAlignment="Right"
+               FontSize="12"
+               Foreground="Gray"
+                   Margin="0,0,10,0">
+        <Run Text="Duplicate File Finder"/><LineBreak/><LineBreak/>
+        <Run Text="Created By"/><LineBreak/>
+        <Run Text="https://github.com/PogaZeus  "/><LineBreak/><LineBreak/>
+        <Run Text="Version 1.0.0.6"/><Run Language="en-gb" Text=".0"/>
+        </TextBlock>
+    </Grid>
+
+        <Grid Grid.Row="1" Margin="5,0,5,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <!-- For button -->
+                <ColumnDefinition Width="*"/>
+                <!-- For TextBox: fills remaining space -->
+            </Grid.ColumnDefinitions>
+            <Button Content="Select Folder" Padding="6,5" Width="120" Click="SelectFolder_Click"/>
+            <TextBox x:Name="txtFolderPath" 
+             Grid.Column="1" 
+             Margin="5,0,0,0" 
+             IsReadOnly="True"/>
+        </Grid>
+
         <!-- Tabs -->
-        <TabControl Grid.Row="3">
+        <TabControl Grid.Row="3" Margin="5">
             <!-- Folders Tab -->
             <TabItem Header="Folders">
                 <TreeView x:Name="tvFolders" Margin="5">
@@ -56,7 +77,7 @@
 
             <!-- Exact Matches Tab -->
             <TabItem Header="Exact Matches">
-                <ListView x:Name="lvExactMatches">
+                <ListView x:Name="lvExactMatches" Margin="5">
                     <ListView.ContextMenu>
                         <ContextMenu>
                             <MenuItem Header="Open File" Click="ContextMenu_OpenFile_Click"/>
@@ -78,7 +99,7 @@
 
             <!-- Close Matches Tab -->
             <TabItem Header="Close Matches">
-                <ListView x:Name="lvCloseMatches">
+                <ListView x:Name="lvCloseMatches" Margin="5">
                     <ListView.ContextMenu>
                         <ContextMenu>
                             <MenuItem Header="Open File" Click="ContextMenu_OpenFile_Click"/>
