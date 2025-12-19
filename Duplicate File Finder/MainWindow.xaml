@@ -37,7 +37,7 @@
         <Run Text="Duplicate File Finder"/><LineBreak/><LineBreak/>
         <Run Text="Created By"/><LineBreak/>
         <Run Text="https://github.com/PogaZeus  "/><LineBreak/><LineBreak/>
-        <Run Text="Version 1.0.0.6"/><Run Language="en-gb" Text=".0"/>
+        <Run Text="Version 1.0.0.6"/>
         </TextBlock>
     </Grid>
 
