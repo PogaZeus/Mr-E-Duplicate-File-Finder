@@ -92,4 +92,4 @@ See `LICENSE` for details.
 
 ---
 
-> **Created by** Mr E aka [PogaZeus] • **YouTube**: [youtube.com/@MrE-](https://youtube.com/@MrE-)
+> **Created by** Mr E aka [PogaZeus] • [Z3U5](https://www.z3u5.org)
